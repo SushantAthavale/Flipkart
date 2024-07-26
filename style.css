@@ -54,6 +54,7 @@ body{
    width: 95px;
    align-items: center;
    cursor: pointer;
+   transition: 0.3s;
 }
 
 
@@ -62,6 +63,10 @@ body{
    background: #2a55e5;
    border-color: #2a55e5;
    border-radius: 8px;
+}
+
+#an{
+   margin-right: 8px;
 }
 
 #an,#login{
@@ -94,10 +99,61 @@ body{
    cursor: pointer;
 }
 
+#items{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: white;
+   margin-top: 10px;
+   width: 97.7vw;
+   height: 30vh;
+   font-size: 14px;
+   margin-left: 12px;
+   margin-right: 12px;
+}
 
+.products{
+   /* height: 130px;
+   width: 141px;
+    */
+    height: 90px;
+    width: 62px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
 
+.productsIcons{
+   display: flex;
+   background-color: transparent;
+   height: 64px;
+   width: 64px;
+   cursor: pointer;
+   align-items: center;
+   background-color: transparent;
+}
 
+.arw{
+   display: flex;
+   margin-top: 8px;
+}
 
+#arwicon{
+   margin-left: 8px;
+   display: flex;
+   align-items: center;
+   transition: 0.3s;
+   cursor: pointer;
+}
+
+.arw:hover{
+   color: rgb(2, 106, 224);
+}
+
+#arwicon:hover{
+   transform: rotate(180deg);
+}
 
 
 
