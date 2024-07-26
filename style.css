@@ -1,3 +1,105 @@
+@import url('https://fonts.googlapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
 body{
-    
+   background-color: #f0f5ff;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-left: 0px;
+   margin-bottom: 0px;
+   border-bottom: 2px solid #e2e6ef;
 }
+#navbar{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   color: #474748;
+   background-color: white;
+   height: 13vh;
+   font-family: 'Poppins', sans-serif;
+   
+}
+
+#search{
+   border: none;
+   padding: 0px;
+   background-color: transparent;
+   height: 40px;
+   width: 450px;
+}
+
+
+#searchicon{
+   display: flex;
+   background-color: transparent;
+   height: 24px;
+   width: 24px;
+   cursor: pointer;
+   align-items: center;
+  
+}
+
+#searchbar{
+   display: flex;
+   background-color: #f0f5ff;
+   border-radius: 8px;
+   height: 40px;
+   width: 290px;
+   align-items: center;
+
+}
+
+#login{
+   display: flex;
+   height: 41px;
+   width: 95px;
+   align-items: center;
+   cursor: pointer;
+}
+
+
+#login:hover {
+   color: white;
+   background: #2a55e5;
+   border-color: #2a55e5;
+   border-radius: 8px;
+}
+
+#an,#login{
+      transform: rotate(0deg);
+      transition: transform .3s ease-in-out; 
+}
+
+#an:hover{
+   transform: rotate(180deg);
+}
+
+ 
+#menu{
+   display: flex;
+   align-items: center;
+   border: 1px solid transparent;
+   box-sizing: border-box;
+   height: 35px;
+   width: 35px;
+   padding-left: 15px;
+}
+
+#menu:hover{
+   background: #fafafa;
+   border-radius: 8px;
+   border-color: #e0e0e0;
+}
+
+#img,#cart,#seller,#menu{
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+   
+
