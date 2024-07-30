@@ -185,6 +185,7 @@ body{
    height: 310px;
    background-color: white;
    gap: 17px;
+   margin-bottom: 8px;
 }
 
 #bsttxt{
@@ -196,6 +197,7 @@ body{
    margin-right: 10px;
    padding: 16px;
    box-sizing: border-box;
+   font-size: 20px;
 }
 
 #itembst{
@@ -219,10 +221,10 @@ body{
    width: 97px;
    height: 170px;
    margin-top: 4px;
-  margin-bottom: 4px
+  margin-bottom: 7px;
 }
 
-#iconBE{
+#iconR{
    color: white;
    background-color: #2a55e5;
    border-radius: 50px;
@@ -232,7 +234,7 @@ body{
    align-items: center;
 }
 
-#iconBE i{
+#iconR i{
     font-size: 0.8rem;
     margin: 8px;
 }
@@ -240,7 +242,48 @@ body{
 #ads2{
    box-sizing: border-box;
    width: 191px;
-   height: 334px;
-   background-color: transparent;
+   height: 310px;
+   background-color: white;
 }
 
+#ads2 img{
+   margin-top: 18px;
+}
+
+#beautyFTM{
+   width: 100%;
+   height: 310px;
+   background-color: white;
+   margin-bottom: 8px;
+}
+
+.monEsee{
+   display: flex;
+   gap: 20px;
+}
+
+#monEsseProduct{
+   width: 405px;
+   height: 117.8vh;
+   background-color: white;
+   margin-right: 10px;
+   margin-left: 8px;
+}
+
+.monPro{
+   display: flex;
+   flex-direction: column;
+   width: 156px;
+   height: 230px;
+   background-color: transparent;
+   border: 0.4px solid #e0e0e0;
+   border-radius: 4px;
+   font-size: 14px;
+}
+
+#monEsse{
+   margin-left: 8px;
+   margin-right: 8px;
+   margin-bottom: 8px;
+   margin-top: 8px;
+}
