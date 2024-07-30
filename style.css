@@ -1,5 +1,7 @@
 @import url('https://fonts.googlapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
 
+/* sec-1 */
+
 body{
    background-color: #f0f5ff;
    margin-top: 0px;
@@ -67,6 +69,7 @@ body{
 
 #an{
    margin-right: 8px;
+   font-size: 0.8rem;
 }
 
 #an,#login{
@@ -95,6 +98,8 @@ body{
    border-color: #e0e0e0;
 }
 
+/* sec-2 */
+
 #img,#cart,#seller,#menu{
    cursor: pointer;
 }
@@ -103,8 +108,9 @@ body{
    display: flex;
    justify-content: space-evenly;
    background-color: white;
-   margin-top: 10px;
-   width: 97.7vw;
+   margin-top: 8px;
+   margin-bottom: 8px;
+   width: 96.7vw;
    height: 30vh;
    font-size: 14px;
    margin-left: 12px;
@@ -145,6 +151,7 @@ body{
    align-items: center;
    transition: 0.3s;
    cursor: pointer;
+   font-size: 0.8rem;
 }
 
 .arw:hover{
@@ -155,7 +162,85 @@ body{
    transform: rotate(180deg);
 }
 
+#ads{
+   height: 240px;
+   display: flex;
+   align-items: center;
+   margin-top: 8px;
+   box-sizing: border-box;
 
+}
 
-   
+#adspic1{
+   height: 220px;
+   width: 100%;
+   margin-top: 8px;
+   margin-bottom: 8px;
+   background-color: transparent;
+}
+
+#bestEle{
+   display: flex;
+   width: 78.5vw;
+   height: 310px;
+   background-color: white;
+   gap: 17px;
+}
+
+#bsttxt{
+   display: flex;
+   justify-content: space-between;
+   /* width: 990px;
+   height: 32px; */
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 16px;
+   box-sizing: border-box;
+}
+
+#itembst{
+   display: flex;
+   justify-content: space-between;   
+}
+
+.bst{
+   display: grid;
+   width: 156px;
+   height: 230px;
+   background-color: transparent;
+   border: 0.4px solid #e0e0e0;
+   margin-right: 8px;
+   border-radius: 4px;
+   font-size: 14px;
+}
+
+.imgsize{
+   margin: auto;
+   width: 97px;
+   height: 170px;
+   margin-top: 4px;
+  margin-bottom: 4px
+}
+
+#iconBE{
+   color: white;
+   background-color: #2a55e5;
+   border-radius: 50px;
+   width: 24px;
+   height: 24px;
+   display: flex;
+   align-items: center;
+}
+
+#iconBE i{
+    font-size: 0.8rem;
+    margin: 8px;
+}
+
+#ads2{
+   box-sizing: border-box;
+   width: 191px;
+   height: 334px;
+   background-color: transparent;
+}
 
