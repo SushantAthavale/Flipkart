@@ -427,14 +427,14 @@ a{
    margin-top: 10px;
 }
 
-   /* .endfooter{
+ .endfooter{
    border-top: 1px solid #454d5e;
    padding: 25px 0;
-   margin-top: 40px;
    width: 100%;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
+   background-color: #171717;
 }
 
 .efoot{
@@ -447,4 +447,4 @@ a{
    font-size: 12px;
    line-height: 18px;
    color: white;
-} */
+}
